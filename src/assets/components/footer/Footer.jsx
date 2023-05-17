@@ -11,14 +11,17 @@ function Footer() {
       <div>
         <span className="footer-title">Social</span>
         <div className="grid grid-flow-col gap-4">
-          <a>
+          <a
+            className="cursor-pointer"
+            href="https://www.linkedin.com/in/celinevalencia/"
+          >
             <box-icon
               name="linkedin-square"
               type="logo"
               color="#e6d6d6"
             ></box-icon>
           </a>
-          <a>
+          <a className="cursor-pointer" href="https://github.com/Paowiee16">
             <box-icon name="github" type="logo" color="#e6d6d6"></box-icon>
           </a>
           <a></a>
