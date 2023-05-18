@@ -3,31 +3,34 @@ import React from "react";
 function Hero() {
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="Valencia, Celine N..png"
-            className="max-w-sm  shadow-2xl  rounded-s-full"
-          />
+      <div className="hero min-h-screen  p-5  ">
+        <div className="flex-col lg:flex-row-reverse">
           <div>
-            <h1 className="text-5xl font-bold">Celine Valencia</h1>
-            <p className="p-16  text-justify">
-              Hey there! I'm a passionate front-end developer and graphic
-              designer hailing from the beautiful city of Cabuyao, Laguna. With
-              a knack for creating eye-catching websites and awesome visuals, I
-              bring a mix of creativity and technical skills to the table. From
-              coding sleek and user-friendly interfaces using HTML, CSS, and
-              JavaScript, to designing stunning logos, illustrations, and UI
-              elements, I love turning ideas into digital magic. Whether you
-              need a website that wows or visuals that pop, I'm your go-to
-              person to make it happen. Let's collaborate and bring your
-              projects to life!
-            </p>
-            <button className="btn btn-primary gap-4">
+            <h1 className="text-5xl font-bold">Hi, I am Celine Valencia</h1>
+            <h3 className=" my-3">
+              Front End Developer | Graphic Designer | UI/UX Designer
+            </h3>
+            <p className="my-3">&#128205; Cabuyao, Laguna</p>
+            <label className="btn btn-primary gap-4" htmlFor="my-modal-6">
               Message Me
-              <box-icon name="message-rounded" color="#c5ffb9"></box-icon>
-            </button>
+              <box-icon name="message-rounded" color="#A0BAEB"></box-icon>
+            </label>
           </div>
+        </div>
+      </div>
+
+      <input type="checkbox" id="my-modal-6" className="modal-toggle" />
+      <div className="modal  sm:modal-middle ">
+        <div className="modal-box relative">
+          <label
+            htmlFor="my-modal-6"
+            className="btn btn-sm btn-circle absolute right-2 top-2"
+          >
+            ✕
+          </label>
+
+          <h1>Contact</h1>
+          <label className="btn btn-sm">Send</label>
         </div>
       </div>
     </div>
