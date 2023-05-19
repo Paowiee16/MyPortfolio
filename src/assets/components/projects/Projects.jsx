@@ -4,15 +4,15 @@ import { SiTailwindcss, SiVite } from "react-icons/si";
 
 function Projects() {
   return (
-    <div className="lg:w-3/4 m-auto h-screen">
+    <div className="lg:w-3/4 m-auto h-screen ">
       <div
         className="card lg:card-side w-3/4 m-auto
-       bg-base-100 shadow-xl p-5"
+       bg-base-100 shadow-xl lg:p-5"
       >
         <figure>
           <img src="public/FauxCoinCover.png" alt="Album" className=" card" />
         </figure>
-        <div className="card-body w-1/2">
+        <div className="card-body lg:w-1/2">
           <h2 className="card-title">Faux Coin Exchange</h2>
           <p className=" text-justify">
             Developed a personal project website using React and Tailwind CSS
@@ -21,19 +21,19 @@ function Projects() {
             practice trading in a simulated environment. This project allowed me
             to strengthen my React and CSS skills.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap justify-center gap-4 p-5">
             <span className="flex flex-col justify-center items-center ">
-              <DiHtml5 className="text-4xl" color="#E34C26" /> HTML 5
+              <DiHtml5 className="text-2xl" color="#E34C26" /> HTML 5
             </span>
             <span className="flex flex-col justify-center items-center">
               <img
                 src="https://www.svgrepo.com/show/374167/vite.svg"
-                className="w-10"
+                className="w-6"
               />{" "}
               VITE
             </span>
             <span className="flex flex-col justify-center items-center">
-              <SiTailwindcss className="text-4xl" color="#07ADCA" />
+              <SiTailwindcss className="text-2xl" color="#07ADCA" />
               TAILWIND
             </span>
           </div>
@@ -45,7 +45,7 @@ function Projects() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <box-icon name="github" type="logo" size="md"></box-icon>
+              <box-icon name="github" type="logo" size="lg"></box-icon>
             </a>
           </div>
         </div>

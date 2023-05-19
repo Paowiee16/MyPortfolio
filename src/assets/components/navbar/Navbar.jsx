@@ -1,8 +1,9 @@
 import React from "react";
+
 import { CiSaveDown2 } from "react-icons/ci";
 function Navbar() {
   return (
-    <div className="flex  sticky top-0 z-30">
+    <div className="flex bg-base-100  sticky top-0 z-30">
       <div className=" navbar bg-base-100 navbar-center justify-items-center  lg:w-3/4  m-auto  ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -68,7 +69,9 @@ function Navbar() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className=" font-semibold ">Home</a>
+              <a className=" font-semibold " href="#Home">
+                Home
+              </a>
             </li>
             <li tabIndex={0}>
               <a className=" font-semibold ">
