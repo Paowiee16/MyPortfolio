@@ -4,5 +4,9 @@
   margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
   padding-top: 1em;
-  overflow-x: hidden
+  /* overflow-x: hidden */
+ 
+}
+html{
+  scroll-behavior: smooth;
 }

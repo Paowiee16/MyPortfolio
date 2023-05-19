@@ -2,8 +2,8 @@ import React from "react";
 import { CiSaveDown2 } from "react-icons/ci";
 function Navbar() {
   return (
-    <div>
-      <div className="navbar  bg-base-100 navbar-center justify-items-center  w-[1280px]  m-auto">
+    <div className="flex  sticky top-0 z-30">
+      <div className=" navbar bg-base-100 navbar-center justify-items-center  lg:w-3/4  m-auto  ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,7 +27,9 @@ function Navbar() {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a className=" font-semibold ">Home</a>
+                <a className=" font-semibold " href="#Home">
+                  Home
+                </a>
               </li>
               <li tabIndex={0}>
                 <a className="justify-between font-semibold">
@@ -52,7 +54,9 @@ function Navbar() {
                 </ul>
               </li>
               <li>
-                <a className=" font-semibold ">About</a>
+                <a className=" font-semibold " href="#About">
+                  About
+                </a>
               </li>
               <li>
                 <a className=" font-semibold ">Contact</a>
@@ -89,14 +93,16 @@ function Navbar() {
               </ul>
             </li>
             <li>
-              <a className=" font-semibold ">About</a>
+              <a className=" font-semibold " href="#About">
+                About
+              </a>
             </li>
             <li>
               <a className=" font-semibold ">Contact</a>
             </li>
           </ul>
         </div>
-        <div className="navbar-end  gap-4">
+        <div className="navbar-end  lg:gap-4 md:gap-4 gap-2">
           <label className="swap swap-rotate">
             <input type="checkbox" />
 
