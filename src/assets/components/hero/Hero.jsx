@@ -4,19 +4,27 @@ import Fade from "react-reveal/Fade";
 function Hero() {
   return (
     <div>
-      <Fade left>
-        <div className="hero h-96  lg:h-screen " id="Home">
-          <div className="flex-col lg:flex-row-reverse p-5 ">
+      <Fade Up>
+        <div className="hero h-screen w-screen" id="Home">
+          <div className="flex flex-col lg:flex-row-reverse p-5 ">
             <div>
-              <h1 className="lg:text-5xl text-2xl font-bold ">
-                Hi, I am Celine Valencia
+              <h1 className="lg:text-5xl text-2xl font-bold  my-8">
+                Celine Valencia
               </h1>
-              <h3 className=" my-3">
+              <h3 className="my-4 ">
+                {/* <div className="divider lg:sh"> */}
                 Front End Developer | Graphic Designer | UI/UX Designer
+                {/* </div> */}
               </h3>
-              <p className="my-3">&#128205; Cabuyao, Laguna</p>
-              <label className="btn btn-primary gap-4" htmlFor="my-modal-6">
-                Message Me
+              <p className="my-4 text-justify lg:w-2/3">
+                &#128205; Im creative designer based in Laguna, and I'm very
+                passionate and dedicated to my work.
+              </p>
+              <label
+                className="btn btn-primary gap-4 normal-case my-4 "
+                htmlFor="my-modal-6"
+              >
+                Say Hi
                 <box-icon name="message-rounded" color="#A0BAEB"></box-icon>
               </label>
             </div>

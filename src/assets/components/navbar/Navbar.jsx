@@ -3,7 +3,7 @@ import React from "react";
 import { CiSaveDown2 } from "react-icons/ci";
 function Navbar() {
   return (
-    <div className="flex bg-base-100  sticky top-0 z-30">
+    <div className="flex bg-base-100  w-screen fixed top-0 z-30  ">
       <div className=" navbar bg-base-100 navbar-center justify-items-center  lg:w-3/4  m-auto  ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -45,7 +45,7 @@ function Navbar() {
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </a>
-                <ul className="p-2 ">
+                <ul className="p-2 bg-base-100 ">
                   <li>
                     <a className=" font-semibold ">Web Designs</a>
                   </li>
@@ -86,7 +86,7 @@ function Navbar() {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </a>
-              <ul className="p-2">
+              <ul className="p-2 bg-base-100 ">
                 <li>
                   <a className=" font-semibold ">Web Designs</a>
                 </li>

@@ -1,11 +1,11 @@
 import React from "react";
 import { DiHtml5 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
-import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 function Projects() {
   return (
     <div className="lg:w-3/4 m-auto flex flex-wrap gap-4 ">
-      <Slide bottom>
+      <Fade bottom>
         <div
           className="card lg:card-side lg:w-fit m-auto
        bg-base-100 shadow-xl p-5"
@@ -51,9 +51,9 @@ function Projects() {
             </div>
           </div>
         </div>
-      </Slide>
+      </Fade>
 
-      <Slide bottom>
+      <Fade bottom>
         <div
           className="card lg:card-side lg:w-fit m-auto
        bg-base-100 shadow-xl p-5"
@@ -99,7 +99,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </Slide>
+      </Fade>
     </div>
   );
 }

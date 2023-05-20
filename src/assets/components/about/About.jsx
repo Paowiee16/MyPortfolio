@@ -8,7 +8,7 @@ import {
   DiMysql,
   DiPhotoshop,
 } from "react-icons/di";
-import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 const techstack = [
   {
@@ -44,8 +44,8 @@ const techstack = [
 ];
 function About() {
   return (
-    <div className="p-5 lg:h-screen " id="About">
-      <Slide bottom>
+    <div className="p-5 h-screen flex " id="About">
+      <Fade bottom>
         <div className="max-w-5xl transition-colors ease-linear shadow-md m-auto ">
           <div className="w-full h-12 rounded-t-lg bg-gray-200 dark:bg-gray-900 flex justify-start items-center space-x-1.5 px-4">
             <span className="w-3 h-3 border-2 border-transparent  rounded-full bg-red-400  "></span>
@@ -90,7 +90,7 @@ function About() {
             </div>
           </div>
         </div>
-      </Slide>
+      </Fade>
     </div>
   );
 }
