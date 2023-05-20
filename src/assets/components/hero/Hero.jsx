@@ -1,13 +1,16 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+
 function Hero() {
   return (
     <div>
       <Fade left>
-        <div className="hero min-h-screen  p-5  " id="Home">
-          <div className="flex-col lg:flex-row-reverse">
+        <div className="hero h-96  lg:h-screen " id="Home">
+          <div className="flex-col lg:flex-row-reverse p-5 ">
             <div>
-              <h1 className="text-5xl font-bold">Hi, I am Celine Valencia</h1>
+              <h1 className="lg:text-5xl text-2xl font-bold ">
+                Hi, I am Celine Valencia
+              </h1>
               <h3 className=" my-3">
                 Front End Developer | Graphic Designer | UI/UX Designer
               </h3>
