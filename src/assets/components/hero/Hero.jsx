@@ -11,7 +11,7 @@ function Hero() {
               <h1 className="lg:text-5xl text-2xl font-bold  ">
                 Celine Valencia
               </h1>
-              <h3 className="mb-2 ">
+              <h3 className="my-2 ">
                 {/* <div className="divider lg:sh"> */}
                 Front End Developer | Graphic Designer
                 {/* </div> */}
@@ -20,9 +20,20 @@ function Hero() {
                 <HeartCircle size="32" color="#ff8a65" variant="Bold" /> I like
                 to create creative stuff.
               </p>
-              <div className="flex flex-shrink gap-8 items-center">
-                <a className="btn gap-2 normal-case my-4">
-                  Resume <DocumentDownload size="20" color="#d9e3f0" />
+              <div className="flex flex-shrink gap-8 items-center mt-4">
+                <a
+                  className="cursor-pointer"
+                  href="https://www.linkedin.com/in/celinevalencia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <box-icon
+                    name="linkedin-square"
+                    type="logo"
+                    color="#1F252D"
+                    size="md"
+                    animation="tada-hover"
+                  ></box-icon>
                 </a>
                 <a
                   className="cursor-pointer"
@@ -32,20 +43,6 @@ function Hero() {
                 >
                   <box-icon
                     name="github"
-                    type="logo"
-                    color="#1F252D"
-                    size="md"
-                    animation="tada-hover"
-                  ></box-icon>
-                </a>
-                <a
-                  className="cursor-pointer"
-                  href="https://www.linkedin.com/in/celinevalencia/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <box-icon
-                    name="linkedin-square"
                     type="logo"
                     color="#1F252D"
                     size="md"
