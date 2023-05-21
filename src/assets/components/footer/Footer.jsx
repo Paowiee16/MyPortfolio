@@ -5,8 +5,7 @@ function Footer() {
     <div className="  footer-center">
       <footer className="footer p-10 bg-neutral text-neutral-content  ">
         <div>
-          <box-icon name="cat" type="solid" color="#E6D6D6"></box-icon>
-          <p>Celine Valencia</p>
+          <p className=" font-semibold text-lg ">Celine Valencia</p>
           <p>Copyright © 2023 - All right reserved</p>
         </div>
         <div>

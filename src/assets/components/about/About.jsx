@@ -9,7 +9,7 @@ import {
   DiPhotoshop,
 } from "react-icons/di";
 import Fade from "react-reveal/Fade";
-
+import { EmojiHappy } from "iconsax-react";
 const techstack = [
   {
     icon: DiHtml5,
@@ -46,14 +46,14 @@ function About() {
   return (
     <div className="p-5 h-screen flex " id="About">
       <Fade bottom>
-        <div className="max-w-5xl transition-colors ease-linear shadow-md m-auto ">
+        <div className="max-w-5xl  transition-colors ease-linear shadow-md m-auto border-2">
           <div className="w-full h-12 rounded-t-lg bg-gray-200 dark:bg-gray-900 flex justify-start items-center space-x-1.5 px-4">
             <span className="w-3 h-3 border-2 border-transparent  rounded-full bg-red-400  "></span>
             <span className="w-3 h-3 border-2 border-transparent rounded-full bg-yellow-400 "></span>
             <span className="w-3 h-3 border-2 border-transparent rounded-full bg-green-400 "></span>
           </div>
-          <div className="bg-gray-100 dark:bg-gray-700 border-t-0 w-full rounded-b-lg h-max">
-            <div className="flex flex-col w-full lg:flex-row">
+          <div className="bg-gray-100 dark:bg-gray-700 border-t-0 w-full rounded-b-lg h-screen">
+            <div className="flex flex-col w-full lg:flex-col">
               <div className=" card before:rounded-box place-items-center">
                 <div className="avatar p-5">
                   <div className="w-36 mask mask-squircle md:w-48 ">
@@ -63,7 +63,7 @@ function About() {
               </div>
 
               <div className="grid flex-grow  card  rounded-box place-items-center p-5">
-                <p className=" text-justify dark:text-white">
+                <p className=" text-justify dark:text-white ">
                   Hey there! I'm a passionate front-end developer and graphic
                   designer hailing from the beautiful city of Cabuyao, Laguna.
                   With a knack for creating eye-catching websites and awesome
@@ -74,6 +74,7 @@ function About() {
                   digital magic. Whether you need a website that wows or visuals
                   that pop, I'm your go-to person to make it happen. Let's
                   collaborate and bring your projects to life!
+                  <EmojiHappy />
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center  dark:text-white p-5">
                   {techstack.map((stack) => (
