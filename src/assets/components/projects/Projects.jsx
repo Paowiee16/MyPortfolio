@@ -25,8 +25,8 @@ function Projects() {
               allowed me to strengthen my React and CSS skills.
             </p>
             <div className="flex flex-wrap justify-start gap-2">
-              <div className="badge badge-warning ">REACT</div>
-              <div className="badge badge-accent ">TAILWIND</div>
+              <div className="badge badge-info ">REACT</div>
+              <div className="badge badge-info ">TAILWIND</div>
             </div>
             <div className="flex-grow card-actions justify-center items-center mt-12">
               <button className="btn btn-nuetral normal-case gap-3">
