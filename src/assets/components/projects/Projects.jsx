@@ -10,6 +10,16 @@ function Projects() {
       <Fade bottom>
         <div>
           <p className=" font-bold lg:text-5xl  text-2xl  ">Projects</p>
+          <div className="text-sm breadcrumbs">
+            <ul>
+              <li>
+                <a>Projects</a>
+              </li>
+              <li>
+                <a>Web Designs</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="card lg:card-side lg:w-fit m-auto bg-white border-2  p-2">
           <figure>
