@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import { DocumentDownload, HeartCircle } from "iconsax-react";
+
 function Hero() {
   return (
     <div>
@@ -18,7 +19,8 @@ function Hero() {
               </h3>
               <p className="my-12 text-justify gap-4 flex items-center flex-wrap text-sm md:text-base lg:text-base ">
                 <HeartCircle size="32" color="#ff8a65" variant="Bold" /> I like
-                to create creative stuff.
+                to create creative stuff. <br />
+                Inspired to turn creativity into
               </p>
               <div className="flex flex-shrink gap-8 items-center mt-4">
                 <a
