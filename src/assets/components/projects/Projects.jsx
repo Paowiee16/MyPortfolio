@@ -2,7 +2,7 @@ import React from "react";
 import { DiHtml5 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import { Link2 } from "iconsax-react";
-import Fade from "react-reveal/Fade";
+
 
 function Projects() {
   return (
@@ -10,7 +10,7 @@ function Projects() {
       className=" lg:w-5/6 md:w-4/5 w-3/4  m-auto flex flex-wrap  lg:h-screen  content-center scroll-mt-4"
       id="Webdesign"
     >
-      <Fade bottom>
+     
         <div>
           <p className=" font-bold lg:text-5xl  text-2xl  ">Projects</p>
           <div className="text-sm breadcrumbs">
@@ -56,7 +56,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </Fade>
+     
     </div>
   );
 }

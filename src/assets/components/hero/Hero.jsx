@@ -1,11 +1,11 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+
 import { DocumentDownload, HeartCircle, Send2 } from "iconsax-react";
 
 function Hero() {
   return (
     <div>
-      <Fade Up>
+      
         <div className="hero h-screen w-screen " id="Home">
           <div className="flex flex-col-reverse lg:flex-row-reverse md:w-4/5 w-3/4 place-content-start p-5  items-center lg:gap-20 gap-10">
             <div>
@@ -62,7 +62,7 @@ function Hero() {
             />
           </div>
         </div>
-      </Fade>
+     
     </div>
   );
 }
