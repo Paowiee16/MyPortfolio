@@ -1,13 +1,13 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import { DocumentDownload, HeartCircle } from "iconsax-react";
+import { DocumentDownload, HeartCircle, Send2 } from "iconsax-react";
 
 function Hero() {
   return (
     <div>
       <Fade Up>
         <div className="hero h-screen w-screen " id="Home">
-          <div className="flex flex-col-reverse lg:flex-row-reverse lg:w-4/6 md:w-4/5 w-3/4 place-content-start p-5  items-center lg:gap-20 gap-10">
+          <div className="flex flex-col-reverse lg:flex-row-reverse md:w-4/5 w-3/4 place-content-start p-5  items-center lg:gap-20 gap-10">
             <div>
               <h1 className="lg:text-5xl text-2xl font-bold  ">
                 Celine Valencia
@@ -22,7 +22,7 @@ function Hero() {
                 to create creative stuff. <br />
                 Inspired to turn creativity into
               </p>
-              <div className="flex flex-shrink gap-8 items-center mt-4">
+              <div className="flex flex-shrink lg:gap-8 gap-2  items-center mt-4 ">
                 <a
                   className="cursor-pointer"
                   href="https://www.linkedin.com/in/celinevalencia/"
@@ -33,8 +33,8 @@ function Hero() {
                     name="linkedin-square"
                     type="logo"
                     color="#1F252D"
-                    size="md"
                     animation="tada-hover"
+                    size="md"
                   ></box-icon>
                 </a>
                 <a
@@ -51,6 +51,9 @@ function Hero() {
                     animation="tada-hover"
                   ></box-icon>
                 </a>
+                <button className="btn normal-case gap-2 btn-xs lg:btn-md lg:gap-4 ">
+                  Resume <Send2 className="w-4" color="#d9e3f0" />
+                </button>
               </div>
             </div>
             <img

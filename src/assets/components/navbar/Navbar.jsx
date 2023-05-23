@@ -46,10 +46,14 @@ function Navbar() {
                 </a>
                 <ul className="p-2 bg-base-100 ">
                   <li>
-                    <a className=" font-semibold ">Web Designs</a>
+                    <a className=" font-semibold " href="#Webdesign">
+                      Web Designs
+                    </a>
                   </li>
                   <li>
-                    <a className=" font-semibold ">Graphic Designs</a>
+                    <a className=" font-semibold " href="#GraphicDesign">
+                      Graphic Designs
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -59,7 +63,9 @@ function Navbar() {
                 </a>
               </li>
               <li>
-                <a className=" font-semibold ">Contact</a>
+                <a className=" font-semibold " href="#Contact">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -87,10 +93,14 @@ function Navbar() {
               </a>
               <ul className="p-2 bg-base-100 ">
                 <li>
-                  <a className=" font-semibold ">Web Designs</a>
+                  <a className=" font-semibold " href="#Webdesign">
+                    Web Designs
+                  </a>
                 </li>
                 <li>
-                  <a className=" font-semibold ">Graphic Designs</a>
+                  <a className=" font-semibold " href="#GraphicDesign">
+                    Graphic Designs
+                  </a>
                 </li>
               </ul>
             </li>
@@ -100,7 +110,9 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className=" font-semibold ">Contact</a>
+              <a className=" font-semibold " href="#Contact">
+                Contact
+              </a>
             </li>
           </ul>
         </div>

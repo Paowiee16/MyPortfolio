@@ -7,6 +7,7 @@ import Hero from "./assets/components/hero/Hero";
 import About from "./assets/components/about/About";
 import Projects from "./assets/components/projects/Projects";
 import Contact from "./assets/components/contact/Contact";
+import GraphicDesign from "./assets/components/projects/GraphicDesign";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
+      <GraphicDesign />
       <About />
       <Contact />
       <Footer />

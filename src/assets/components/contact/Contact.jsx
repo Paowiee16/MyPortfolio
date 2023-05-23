@@ -3,7 +3,7 @@ import { Location, Message } from "iconsax-react";
 function Contact() {
   return (
     <div
-      className="h-auto  my-10 lg:w-4/6 md:w-4/5 w-3/4 place-content-start  m-auto"
+      className="content-center h-auto   my-10 lg:w-4/6 md:w-4/5 w-3/4 place-content-start  m-auto"
       id="Contact"
     >
       <p className=" font-bold lg:text-5xl  text-2xl my-5">Contact</p>

@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div
-      className="m-auto  lg:w-5/6 md:w-4/5 w-3/4 flex flex-wrap justify-center scroll-mt-24"
+      className="m-auto lg:h-screen h-auto  content-center  lg:w-5/6 md:w-4/5 w-3/4 flex flex-wrap  scroll-mt-24"
       id="About"
     >
       <p className=" font-bold lg:text-5xl  text-2xl  ">About Me</p>
@@ -13,7 +13,7 @@ function About() {
           <div className="blob m-auto">
             <img
               className="mask mask-circle magicpattern w-90  grayscale"
-              src="/Valencia, Celine N.png"
+              src="/animeMe.png"
             />
           </div>
         </div>

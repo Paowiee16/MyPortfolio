@@ -6,7 +6,10 @@ import Fade from "react-reveal/Fade";
 
 function Projects() {
   return (
-    <div className="lg:w-3/4 m-auto flex flex-wrap gap-4 lg:h-screen  content-center">
+    <div
+      className=" lg:w-5/6 md:w-4/5 w-3/4  m-auto flex flex-wrap  lg:h-screen  content-center scroll-mt-4"
+      id="Webdesign"
+    >
       <Fade bottom>
         <div>
           <p className=" font-bold lg:text-5xl  text-2xl  ">Projects</p>
@@ -35,8 +38,8 @@ function Projects() {
               allowed me to strengthen my React and CSS skills.
             </p>
             <div className="flex flex-wrap justify-start gap-2">
-              <div className="badge badge-info ">REACT</div>
-              <div className="badge badge-info ">TAILWIND</div>
+              <div className="badge badge-info font-bold  ">REACT</div>
+              <div className="badge badge-info font-bold ">TAILWIND</div>
             </div>
             <div className="flex-grow card-actions justify-center items-center mt-12">
               <button className="btn btn-nuetral normal-case gap-3">
