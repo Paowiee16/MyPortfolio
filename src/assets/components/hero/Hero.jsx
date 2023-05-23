@@ -57,7 +57,7 @@ function Hero() {
           </div>
           <img
             className="mask mask-circle magicpattern lg:w-80 w-56 "
-            src="/Valencia, Celine N.png"
+            src="public/Valencia, Celine N.png"
           />
         </div>
       </div>
