@@ -23,7 +23,7 @@ function Navbar() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <div className="flex bg-base-100 w-screen fixed top-0 shadow-sm z-30 dark:bg-slate-900 dark:text-white  ">
+    <div className="flex bg-base-100 w-screen fixed top-0 shadow-sm z-30 dark:bg-[#18191A] dark:text-white  ">
       <div className=" navbar navbar-center justify-items-center  lg:w-3/4  m-auto      ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -98,7 +98,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end  lg:gap-4 md:gap-4 gap-2">
+        <div className="navbar-end  lg:gap-4 md:gap-4 gap-2 px-5">
           {" "}
           <button type="button" onClick={handleThemeSwitch}>
             {theme === "dark" ? "🌙" : "☀️"}
