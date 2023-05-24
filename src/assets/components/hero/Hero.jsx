@@ -1,25 +1,24 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import { DocumentDownload, HeartCircle, Send2 } from "iconsax-react";
+import { HeartCircle, Send2 } from "iconsax-react";
 
 function Hero() {
   return (
     <div>
       <div className="hero h-screen w-screen " id="Home">
-        <div className="flex flex-col-reverse lg:flex-row-reverse md:w-4/5 w-3/4 place-content-start p-5  items-center lg:gap-20 gap-10">
+        <div className="flex flex-col-reverse lg:flex-row-reverse md:w-4/5 w-3/4 place-content-center p-5  items-center lg:gap-20 gap-10">
           <div>
-            <h1 className="lg:text-5xl text-2xl font-bold  ">
+            <h1 className="lg:text-7xl text-5xl font-bold  ">
               Celine Valencia
             </h1>
-            <h3 className="my-2 ">
-              {/* <div className="divider lg:sh"> */}
+            <h3 className="my-2 text-lg">
               Front End Developer | Graphic Designer
-              {/* </div> */}
             </h3>
-            <p className="my-12 text-justify gap-4 flex items-center flex-wrap text-sm md:text-base lg:text-base ">
+            <p className="my-12 text-justify gap-4 flex items-center flex-wrap text-sm  md:text-lg ">
               <HeartCircle size="32" color="#ff8a65" variant="Bold" /> I like to
               create creative stuff. <br />
-              Inspired to turn creativity into
+              Inspired to turn creativity into reality.
             </p>
             <div className="flex flex-shrink lg:gap-8 gap-2  items-center mt-4 ">
               <a
@@ -28,13 +27,7 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <box-icon
-                  name="linkedin-square"
-                  type="logo"
-                  color="#1F252D"
-                  animation="tada-hover"
-                  size="md"
-                ></box-icon>
+                <i className="bx bxl-linkedin-square md:bx-lg bx-md  bx-tada-hover dark:text-white"></i>
               </a>
               <a
                 className="cursor-pointer"
@@ -42,23 +35,21 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <box-icon
-                  name="github"
-                  type="logo"
-                  color="#1F252D"
-                  size="md"
-                  animation="tada-hover"
-                ></box-icon>
+                <i className="bx bxl-github md:bx-lg bx-md bx-tada-hover dark:text-white"></i>
               </a>
-              <button className="btn normal-case gap-2 btn-xs lg:btn-md lg:gap-4 ">
-                Resume <Send2 className="w-4" color="#d9e3f0" />
-              </button>
+              <a
+                className="btn normal-case gap-2 btn-sm lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
+                href="/blob.svg"
+                download="Valencia, Celine - Resume"
+              >
+                Resume <Send2 className="w-4 lg:w-5 dark:text-red" />
+              </a>
             </div>
           </div>
-          <img
-            className="mask mask-circle magicpattern lg:w-80 w-56 "
-            src="public/Valencia, Celine N.png"
-          />
+          {/* <img
+            className="mask mask-circle magicpattern lg:w-1/3 w-56 grayscale "
+            src="public/Me.jpg"
+          /> */}
         </div>
       </div>
     </div>

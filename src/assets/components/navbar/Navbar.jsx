@@ -1,9 +1,30 @@
-import React from "react";
-import { Sun1, Moon } from "iconsax-react";
+import React, { useEffect, useState } from "react";
 function Navbar() {
+  const [theme, setTheme] = useState(null);
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+      console.log(theme);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
   return (
-    <div className="flex bg-base-100  w-screen fixed top-0 z-30  ">
-      <div className=" navbar bg-base-100 navbar-center justify-items-center  lg:w-3/4  m-auto  ">
+    <div className="flex bg-base-100 w-screen fixed top-0 shadow-sm z-30 dark:bg-slate-900 dark:text-white  ">
+      <div className=" navbar navbar-center justify-items-center  lg:w-3/4  m-auto      ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,51 +48,33 @@ function Navbar() {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a className=" font-semibold " href="#Home">
+                <a className=" font-semibold md:text-lg" href="#Home">
                   Home
                 </a>
               </li>
               <li tabIndex={0}>
-                <a className="justify-between font-semibold">
+                <a
+                  className="justify-between font-semibold md:text-lg"
+                  href="#Webdesign"
+                >
                   Projects
-                  <svg
-                    className="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
                 </a>
-                <ul className="p-2 bg-base-100 ">
-                  <li>
-                    <a className=" font-semibold " href="#Webdesign">
-                      Web Designs
-                    </a>
-                  </li>
-                  <li>
-                    <a className=" font-semibold " href="#GraphicDesign">
-                      Graphic Designs
-                    </a>
-                  </li>
-                </ul>
               </li>
               <li>
-                <a className=" font-semibold " href="#About">
+                <a className=" font-semibold md:text-lg" href="#About">
                   About
                 </a>
               </li>
               <li>
-                <a className=" font-semibold " href="#Contact">
+                <a className=" font-semibold md:text-lg" href="#Contact">
                   Contact
                 </a>
               </li>
             </ul>
           </div>
-          <a className="normal-case text-xl font-extrabold">Celine</a>
+          <a className="normal-case md:text-2xl font-extrabold">Celine</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex  text-xl ">
           <ul className="menu menu-horizontal px-1">
             <li>
               <a className=" font-semibold " href="#Home">
@@ -79,30 +82,9 @@ function Navbar() {
               </a>
             </li>
             <li tabIndex={0}>
-              <a className=" font-semibold ">
+              <a className=" font-semibold " href="#Webdesign">
                 Projects
-                <svg
-                  className="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
               </a>
-              <ul className="p-2 bg-base-100 ">
-                <li>
-                  <a className=" font-semibold " href="#Webdesign">
-                    Web Designs
-                  </a>
-                </li>
-                <li>
-                  <a className=" font-semibold " href="#GraphicDesign">
-                    Graphic Designs
-                  </a>
-                </li>
-              </ul>
             </li>
             <li>
               <a className=" font-semibold " href="#About">
@@ -117,23 +99,10 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end  lg:gap-4 md:gap-4 gap-2">
-          <label className="swap swap-rotate">
-            <input type="checkbox" />
-
-            <Sun1
-              className="swap-on fill-current "
-              size="24"
-              color="#f0c803"
-              variant="Bold"
-            />
-
-            <Moon
-              size="32"
-              color="#555555"
-              variant="Outline"
-              className="swap-off fill-current w-5 h-5"
-            />
-          </label>
+          {" "}
+          <button type="button" onClick={handleThemeSwitch}>
+            {theme === "dark" ? "🌙" : "☀️"}
+          </button>
         </div>
       </div>
     </div>

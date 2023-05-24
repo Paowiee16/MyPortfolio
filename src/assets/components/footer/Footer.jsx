@@ -5,10 +5,9 @@ function Footer() {
     <div className="  footer-center">
       <footer className="footer p-10 bg-neutral text-neutral-content  ">
         <div>
-          <p className=" font-semibold text-lg ">Celine Valencia</p>
-          <p>Copyright © 2023 - All right reserved</p>
+          <p>© Celine Valencia. All right reserved. 2023</p>
         </div>
-        <div>
+        {/* <div>
           <span className="footer-title ">Social</span>
           <div className="grid grid-flow-col gap-4">
             <a
@@ -32,7 +31,7 @@ function Footer() {
               <box-icon name="github" type="logo" color="#e6d6d6"></box-icon>
             </a>
           </div>
-        </div>
+        </div> */}
       </footer>
     </div>
   );

@@ -1,62 +1,54 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import { DiHtml5 } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
 import { Link2 } from "iconsax-react";
-
 
 function Projects() {
   return (
     <div
-      className=" lg:w-5/6 md:w-4/5 w-3/4  m-auto flex flex-wrap  lg:h-screen  content-center scroll-mt-4"
+      className=" lg:w-5/6 lg:h-screen md:w-4/5 w-3/4  m-auto flex flex-wrap text-center justify-center content-center   dark:bg-slate-900 dark:text-white "
       id="Webdesign"
     >
-     
-        <div>
-          <p className=" font-bold lg:text-5xl  text-2xl  ">Projects</p>
-          <div className="text-sm breadcrumbs">
-            <ul>
-              <li>
-                <a>Projects</a>
-              </li>
-              <li>
-                <a>Web Designs</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="card lg:card-side lg:w-fit m-auto bg-white border-2  p-2">
-          <figure>
-            <img src="public/FauxCoinCover.png" alt="Album" className=" card" />
-          </figure>
-          <div className="card-body lg:w-4/5 ">
-            <h2 className="card-title">1. Faux Coin Exchange</h2>
-            <p className="text-justify flex-grow-0 ">
-              Developed a personal project website using React and Tailwind CSS
-              that simulates a cryptocurrency exchange called FauxCoin Exchange.
-              The website allows users to view real-time cryptocurrency prices
-              and practice trading in a simulated environment. This project
-              allowed me to strengthen my React and CSS skills.
-            </p>
-            <div className="flex flex-wrap justify-start gap-2">
-              <div className="badge badge-info font-bold  ">REACT</div>
-              <div className="badge badge-info font-bold ">TAILWIND</div>
+      <div>
+        <p className=" font-bold lg:text-5xl  text-2xl  my-5">Projects</p>
+      </div>
+      <div className="card lg:card-side lg:w-fit m-auto bg-white border-4    dark:border-[#27374D] dark:bg-slate-900 dark:text-white ">
+        <figure>
+          <img src="public/FauxCoinCover.png" alt="Album" className=" card" />
+        </figure>
+        <div className="card-body lg:w-4/5 p-3 ">
+          <h2 className="card-title text-sm lg:text-2xl">
+            1. Faux Coin Exchange
+          </h2>
+          <p className="text-justify flex-grow-0  text-ellipsis overflow-hidden text-md lg:text-lg">
+            Developed a personal project website using React and Tailwind CSS
+            that simulates a cryptocurrency exchange called FauxCoin Exchange.
+            The website allows users to view real-time cryptocurrency prices and
+            practice trading in a simulated environment. This project allowed me
+            to strengthen my React and CSS skills.
+          </p>
+          <div className="flex flex-wrap justify-start gap-2">
+            <div className="badge badge-info font-semibold dark:bg-warning  ">
+              REACT
             </div>
-            <div className="flex-grow card-actions justify-center items-center mt-12">
-              <button className="btn btn-nuetral normal-case gap-3">
-                Live <Link2 size="12" color="#d9e3f0" />
-              </button>
-              <a
-                href="https://github.com/Paowiee16/CryptoProject"
-                className=" cursor-pointer"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <box-icon name="github" type="logo" size="md"></box-icon>
-              </a>
+            <div className="badge badge-info font-semibold dark:bg-warning ">
+              TAILWIND
             </div>
           </div>
+          <div className="flex-grow card-actions justify-center items-center mt-12">
+            <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
+              Live <Link2 size="12" color="#d9e3f0" />
+            </button>
+            <a
+              href="https://github.com/Paowiee16/CryptoProject"
+              className=" cursor-pointer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-github md:bx-lg bx-md bx-tada-hover dark:text-white"></i>
+            </a>
+          </div>
         </div>
-     
+      </div>
     </div>
   );
 }
