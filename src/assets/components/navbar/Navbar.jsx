@@ -72,7 +72,9 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <a className="normal-case md:text-2xl font-extrabold">Celine</a>
+          <a className="normal-case md:text-2xl font-extrabold cursor-defaultx]">
+            Celine
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex  text-xl ">
           <ul className="menu menu-horizontal px-1">

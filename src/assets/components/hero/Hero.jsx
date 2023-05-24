@@ -39,7 +39,7 @@ function Hero() {
               </a>
               <a
                 className="btn normal-case gap-2 btn-sm lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
-                href="/blob.svg"
+                href="blob.svg"
                 download="Valencia, Celine - Resume"
               >
                 Resume <Send2 className="w-4 lg:w-5 dark:text-red" />
