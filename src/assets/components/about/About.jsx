@@ -13,7 +13,7 @@ function About() {
           <div className="blob m-auto">
             <img
               className="mask mask-circle  w-90  grayscale"
-              src="/animeMe.png"
+              src="animeMe.png"
             />
           </div>
         </div>
