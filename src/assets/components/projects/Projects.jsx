@@ -13,7 +13,7 @@ function Projects() {
       </div>
       <div className="card lg:card-side lg:w-fit m-auto bg-white border-4    dark:border-[#27374D] dark:bg-slate-900 dark:text-white ">
         <figure>
-          <img src="FauxCoinCover.PNg" alt="Album" className=" card" />
+          <img src="webpage.PNG" alt="Album" className=" card" />
         </figure>
         <div className="card-body lg:w-4/5 p-3 ">
           <h2 className="card-title text-sm lg:text-2xl">
