@@ -38,7 +38,7 @@ function Contact() {
           className="grid flex-grow gap-4 content-start"
         >
           <p className=" opacity-9 font-semibold tracking-widest">
-            = Get in touch with me!
+            Get in touch with me!
           </p>
           <span className="flex  gap-4  md:text-2xl text-sm items-center">
             <Message size="20" variant="Bold" />
@@ -93,12 +93,6 @@ function Contact() {
           </form>
         </div>
       </div>
-      <input type="checkbox" id="modelWindow" className="modal-toggle" />
-      <label htmlFor="modelWindow" className="modal cursor-pointer">
-        <label className="modal-box relative" htmlFor="">
-          <h3 className="text-lg font-bold">Message Sent Successful</h3>
-        </label>
-      </label>
     </div>
   );
 }

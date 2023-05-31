@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { Link2 } from "iconsax-react";
+import { ExportCircle } from "iconsax-react";
 
 function Projects() {
   return (
@@ -13,37 +13,50 @@ function Projects() {
       </div>
       <div
         data-aos="fade-up"
-        className="card lg:card-side lg:w-fit m-auto bg-white border-2 p-5 shadow-md    dark:border-[#393E46] dark:bg-[#242526] dark:text-white "
+        className="card lg:card-side lg:w-fit m-auto p-5     dark:text-white "
       >
         <figure data-aos="fade-up">
           <img src="webpage.png " alt="FauxCoin Exhange" className="" />
         </figure>
         <div data-aos="fade-right" className="card-body lg:w-4/5 p-3 ">
-          <h2 className="card-title text-sm lg:text-2xl">
+          <h2 className="card-title text-sm lg:text-2xl tracking-widest ">
             1. FauxCoin Exchange
           </h2>
-          <p className="text-justify flex-grow-0  text-ellipsis overflow-hidden text-md lg:text-lg">
+          <div className="flex flex-wrap justify-start gap-2 ">
+            <div className="badge   bg-[#482F96] dark:text-white">REACT</div>
+            <div className="badge bg-[#482F96] dark:text-white">TAILWIND</div>
+            <div className="badge bg-[#482F96] dark:text-white">API</div>
+          </div>
+          <p className="text-justify flex-grow-0  text-ellipsis overflow-hidden text-md lg:text-lg ">
             Developed a personal project website using React and Tailwind CSS
             that simulates a cryptocurrency exchange called FauxCoin Exchange.
             The website allows users to view real-time cryptocurrency prices and
             practice trading in a simulated environment. This project allowed me
             to strengthen my React and CSS skills.
           </p>
-          <div className="flex flex-wrap justify-start gap-2">
-            <div className="badge   bg-[#482F96] dark:text-white">REACT</div>
-            <div className="badge bg-[#482F96] dark:text-white">TAILWIND</div>
-          </div>
-          <div className="flex-grow card-actions justify-center items-center mt-12">
-            <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
-              Live <Link2 size="12" color="#d9e3f0" />
-            </button>
+
+          <div className="card-actions items-center ">
+            <a
+              href="https://paowiee16.github.io/CryptoProject/"
+              className=" cursor-pointer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
+                <ExportCircle size="30" color="#d9e3f0" variant="Bold" /> Live
+              </button>
+            </a>
+
             <a
               href="https://github.com/Paowiee16/CryptoProject"
               className=" cursor-pointer"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bx bxl-github md:bx-lg bx-md bx-tada-hover dark:text-white"></i>
+              <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
+                <i className="bx bxl-github md:bx-lg bx-md bx-tada-hover dark:text-white"></i>
+                <span>Github</span>
+              </button>
             </a>
           </div>
         </div>
