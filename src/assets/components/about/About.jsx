@@ -4,6 +4,7 @@ import React from "react";
 function About() {
   return (
     <div
+      data-aos="fade-up"
       className="m-auto lg:mt-0 mt-24 lg:h-screen h-auto  content-center justify-center lg:w-5/6 md:w-4/5 w-3/4 flex flex-wrap  scroll-mt-24"
       id="About"
     >

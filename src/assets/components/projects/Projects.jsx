@@ -5,7 +5,8 @@ import { Link2 } from "iconsax-react";
 function Projects() {
   return (
     <div
-      className="project lg:w-5/6 lg:h-screen md:w-4/5 w-3/4  m-auto flex flex-wrap text-center justify-center content-center   dark:bg-[#18191A] dark:text-white "
+      data-aos="fade-up"
+      className="  snap-center project lg:w-5/6 lg:h-screen md:w-4/5 w-3/4  m-auto flex flex-wrap text-center justify-center content-center    "
       id="Webdesign"
     >
       <div>

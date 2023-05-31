@@ -17,7 +17,6 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          
         },
         (error) => {
           console.log(error.text);
@@ -28,6 +27,7 @@ function Contact() {
 
   return (
     <div
+      data-aos="fade-up"
       className=" flex  flex-wrap content-center h-auto   my-10 lg:w-4/6 md:w-4/5 w-3/4  justify-center m-auto "
       id="Contact"
     >

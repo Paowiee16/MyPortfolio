@@ -6,7 +6,7 @@ import { HeartCircle, DocumentDownload } from "iconsax-react";
 function Hero() {
   return (
     <div>
-      <div className="hero h-screen w-screen " id="Home">
+      <div data-aos="fade-up" className="hero h-screen w-screen " id="Home">
         <div className="flex flex-col-reverse lg:flex-row-reverse md:w-4/5 w-3/4 place-content-center p-5  items-center lg:gap-20 gap-10">
           <div>
             <h1 className="lg:text-7xl text-5xl font-bold  ">

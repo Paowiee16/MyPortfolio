@@ -12,6 +12,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "boxicons": "^2.1.4",
     "daisyui": "^2.51.6",
     "iconsax-react": "^0.0.8",
