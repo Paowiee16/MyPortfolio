@@ -5,13 +5,13 @@ import { Link2 } from "iconsax-react";
 function Projects() {
   return (
     <div
-      className=" lg:w-5/6 lg:h-screen md:w-4/5 w-3/4  m-auto flex flex-wrap text-center justify-center content-center   dark:bg-[#18191A] dark:text-white "
+      className="project lg:w-5/6 lg:h-screen md:w-4/5 w-3/4  m-auto flex flex-wrap text-center justify-center content-center   dark:bg-[#18191A] dark:text-white "
       id="Webdesign"
     >
       <div>
         <p className=" font-bold lg:text-5xl  text-2xl  my-5">Projects</p>
       </div>
-      <div className="card lg:card-side lg:w-fit m-auto bg-white border-2 p-5    dark:border-[#393E46] dark:bg-[#242526] dark:text-white ">
+      <div className="card lg:card-side lg:w-fit m-auto bg-white border-2 p-5 shadow-md    dark:border-[#393E46] dark:bg-[#242526] dark:text-white ">
         <figure>
           <img src="webpage.PNG" alt="Album" className=" card" />
         </figure>

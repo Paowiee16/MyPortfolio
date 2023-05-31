@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 
-import { HeartCircle, Send2 } from "iconsax-react";
+import { HeartCircle, DocumentDownload } from "iconsax-react";
 
 function Hero() {
   return (
@@ -39,10 +39,10 @@ function Hero() {
               </a>
               <a
                 className="btn normal-case gap-2 btn-sm lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
-                href="blob.svg"
+                href="ValenciaCeline-Resume.pdf"
                 download="Valencia, Celine - Resume"
               >
-                Resume <Send2 className="w-4 lg:w-5 dark:text-red" />
+                Resume <DocumentDownload className="w-4 lg:w-5 dark:text-red" />
               </a>
             </div>
           </div>
