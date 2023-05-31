@@ -10,11 +10,8 @@ function About() {
       <p className=" font-bold md:text-5xl  text-2xl  ">About Me</p>
       <div className="flex flex-col w-full lg:flex-row">
         <div className="grid flex-grow w-full  content-center  text-center">
-          <div className="blob m-auto">
-            <img
-              className="mask mask-circle  w-90  grayscale"
-              src="animeMe.png"
-            />
+          <div className="blob m-auto ">
+            <img className=" mask mask-circle" src="aboutme.jpg" />
           </div>
         </div>
         {/* About Description */}

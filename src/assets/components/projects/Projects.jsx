@@ -11,7 +11,7 @@ function Projects() {
       <div>
         <p className=" font-bold lg:text-5xl  text-2xl  my-5">Projects</p>
       </div>
-      <div className="card lg:card-side lg:w-fit m-auto bg-white border-4    dark:border-[#393E46] dark:bg-[#242526] dark:text-white ">
+      <div className="card lg:card-side lg:w-fit m-auto bg-white border-2 p-5    dark:border-[#393E46] dark:bg-[#242526] dark:text-white ">
         <figure>
           <img src="webpage.PNG" alt="Album" className=" card" />
         </figure>
