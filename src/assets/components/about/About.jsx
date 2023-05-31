@@ -11,12 +11,15 @@ function About() {
       <p className=" font-bold md:text-5xl  text-2xl  ">About Me</p>
       <div className="flex flex-col w-full lg:flex-row">
         <div className="grid flex-grow w-full  content-center  text-center">
-          <div className="blob m-auto ">
+          <div data-aos="fade-up" className="blob m-auto ">
             <img className=" mask mask-circle" src="aboutme.jpg" />
           </div>
         </div>
         {/* About Description */}
-        <div className="grid flex-grow  card  place-items-center">
+        <div
+          data-aos="fade-right"
+          className="grid flex-grow  card  place-items-center"
+        >
           <div className="form-control flex gap-5 lg:w-4/5">
             <p className=" text-justify  md:text-lg text-sm p-5 ">
               Hello, I&#39;m Celine Valencia, a passionate front-end developer
@@ -37,7 +40,10 @@ function About() {
               let&#39;s make something remarkable!
             </p>
           </div>
-          <div className=" flex flex-wrap  gap-5 p-5 justify-center">
+          <div
+            data-aos="fade-right"
+            className=" flex flex-wrap  gap-5 p-5 justify-center"
+          >
             {/* html */}
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"

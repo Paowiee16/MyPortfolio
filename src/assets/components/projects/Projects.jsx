@@ -5,20 +5,22 @@ import { Link2 } from "iconsax-react";
 function Projects() {
   return (
     <div
-      data-aos="fade-up"
       className="  snap-center project lg:w-5/6 lg:h-screen md:w-4/5 w-3/4  m-auto flex flex-wrap text-center justify-center content-center    "
       id="Webdesign"
     >
       <div>
         <p className=" font-bold lg:text-5xl  text-2xl  my-5">Projects</p>
       </div>
-      <div className="card lg:card-side lg:w-fit m-auto bg-white border-2 p-5 shadow-md    dark:border-[#393E46] dark:bg-[#242526] dark:text-white ">
-        <figure>
-          <img src="webpage.PNG" alt="Album" className=" card" />
+      <div
+        data-aos="fade-up"
+        className="card lg:card-side lg:w-fit m-auto bg-white border-2 p-5 shadow-md    dark:border-[#393E46] dark:bg-[#242526] dark:text-white "
+      >
+        <figure data-aos="fade-up">
+          <img src="webpage.png " alt="FauxCoin Exhange" className="" />
         </figure>
-        <div className="card-body lg:w-4/5 p-3 ">
+        <div data-aos="fade-right" className="card-body lg:w-4/5 p-3 ">
           <h2 className="card-title text-sm lg:text-2xl">
-            1. Faux Coin Exchange
+            1. FauxCoin Exchange
           </h2>
           <p className="text-justify flex-grow-0  text-ellipsis overflow-hidden text-md lg:text-lg">
             Developed a personal project website using React and Tailwind CSS
@@ -28,12 +30,8 @@ function Projects() {
             to strengthen my React and CSS skills.
           </p>
           <div className="flex flex-wrap justify-start gap-2">
-            <div className="badge badge-info font-semibold dark:bg-warning  ">
-              REACT
-            </div>
-            <div className="badge badge-info font-semibold dark:bg-warning ">
-              TAILWIND
-            </div>
+            <div className="badge   bg-[#482F96] dark:text-white">REACT</div>
+            <div className="badge bg-[#482F96] dark:text-white">TAILWIND</div>
           </div>
           <div className="flex-grow card-actions justify-center items-center mt-12">
             <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
