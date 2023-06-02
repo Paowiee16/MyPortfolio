@@ -5,23 +5,20 @@ function About() {
   return (
     <div
       data-aos="fade-up"
-      className="m-auto lg:mt-0 mt-24 lg:h-screen h-auto  content-center justify-center lg:w-5/6 md:w-4/5 w-3/4 flex flex-wrap  scroll-mt-24"
+      className="m-auto lg:mt-0 mt-24 lg:h-screen h-auto content-center justify-center lg:w-5/6 md:w-4/5 w-3/4 flex flex-wrap  scroll-mt-24"
       id="About"
     >
       <p className=" font-bold md:text-5xl  text-2xl  ">About Me</p>
-      <div className="flex flex-col w-full lg:flex-row">
-        <div className="grid flex-grow w-full  content-center  text-center">
-          <div data-aos="fade-up" className="blob m-auto ">
-            <img className=" mask mask-circle" src="aboutme.jpg" />
+      <div className="flex flex-col w-full lg:flex-row items-center">
+        <div className="grid  w-max  content-center  text-center ">
+          <div data-aos="fade-up" className=" m-auto ">
+            <img className="rounded-full lg:w-full w-56   " src="celine.png" />
           </div>
         </div>
         {/* About Description */}
-        <div
-          data-aos="fade-right"
-          className="grid flex-grow  card  place-items-center"
-        >
-          <div className="form-control flex gap-5 lg:w-4/5">
-            <p className=" text-justify  md:text-lg text-sm p-5 ">
+        <div data-aos="fade-right" className="grid  place-items-center w-4/5">
+          <div className="form-control flex gap-5 p-5 ">
+            <p className=" text-justify  md:text-lg text-sm  ">
               Hello, I&#39;m Celine Valencia, a passionate front-end developer
               and graphic designer. My journey into this field was inspired by
               my love for turning creativity into reality. The combination of

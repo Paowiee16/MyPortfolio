@@ -52,8 +52,8 @@ function Hero() {
             </div>
           </div>
           {/* <img
-            className="mask mask-circle magicpattern lg:w-1/3 w-56 grayscale "
-            src="public/Me.jpg"
+            className="rounded-full lg:w-1/3 w-56  border-2 "
+            src="celine.png"
           /> */}
         </div>
       </div>
