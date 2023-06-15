@@ -12,7 +12,7 @@ function Hero() {
             <h1 className="lg:text-7xl text-5xl font-bold  ">
               Celine Valencia
             </h1>
-            <h3 className="my-2 text-lg">Front End Developer</h3>
+            <h2 className="my-2 text-lg">Front End Developer</h2>
             <div data-aos="slide-up">
               <p className="my-12 text-justify gap-4 flex items-center flex-wrap text-sm  md:text-lg ">
                 <HeartCircle size="32" color="#ff8a65" variant="Bold" /> I like
