@@ -50,7 +50,12 @@ function Projects() {
               rel="noopener noreferrer"
             >
               <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
-                <ExportCircle size="30" color="#d9e3f0" variant="Bold" /> Live
+                <ExportCircle
+                  size="30"
+                  className=" w-4 lg:w-8 h-auto dark:text-white"
+                  variant="Bold"
+                />
+                Live
               </button>
             </a>
 
@@ -61,7 +66,10 @@ function Projects() {
               rel="noopener noreferrer"
             >
               <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
-                <BsGithub size={34} className=" dark:text-white" />
+                <BsGithub
+                  size={30}
+                  className=" w-4 lg:w-8 h-auto dark:text-white"
+                />
                 <span>Github</span>
               </button>
             </a>

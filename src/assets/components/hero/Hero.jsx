@@ -32,7 +32,10 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <BsLinkedin size={34} className=" dark:text-white" />
+                <BsLinkedin
+                  size={34}
+                  className=" w-4 lg:w-8 h-auto dark:text-white"
+                />
               </a>
               <a
                 aria-label="Github Profile"
@@ -41,7 +44,10 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <BsGithub size={34} className=" dark:text-white" />
+                <BsGithub
+                  size={34}
+                  className="  w-4 lg:w-8 h-auto dark:text-white"
+                />
               </a>
               <a
                 className="btn normal-case gap-2 btn-sm lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
