@@ -2,6 +2,7 @@
 import React from "react";
 
 import { HeartCircle, DocumentDownload } from "iconsax-react";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 function Hero() {
   return (
@@ -31,7 +32,7 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bx bxl-linkedin-square md:bx-lg bx-md  bx-tada-hover dark:text-white"></i>
+                <BsLinkedin size={34} className=" dark:text-white" />
               </a>
               <a
                 aria-label="Github Profile"
@@ -40,14 +41,14 @@ function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="bx bxl-github md:bx-lg bx-md bx-tada-hover dark:text-white"></i>
+                <BsGithub size={34} className=" dark:text-white" />
               </a>
               <a
                 className="btn normal-case gap-2 btn-sm lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
                 href="Celine_Valencia_Resume.pdf"
                 download="Valencia, Celine - Resume"
               >
-                Resume <DocumentDownload className="w-4 lg:w-5 dark:text-red" />
+                Resume <DocumentDownload className="w-4 lg:w-5 " />
               </a>
             </div>
           </div>

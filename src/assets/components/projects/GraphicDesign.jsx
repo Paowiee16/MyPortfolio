@@ -32,7 +32,6 @@ function GraphicDesign() {
     >
       <div>
         <p className=" font-bold lg:text-5xl  text-2xl  ">Projects</p>
-        {/* Breadcrumbs */}
         <div className="text-sm breadcrumbs">
           <ul>
             <li>

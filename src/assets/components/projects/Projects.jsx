@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { ExportCircle } from "iconsax-react";
-
+import { BsGithub } from "react-icons/bs";
 function Projects() {
   return (
     <div
@@ -30,7 +30,7 @@ function Projects() {
             1. FauxCoin Exchange
           </h2>
           <div className="flex flex-wrap justify-start gap-2 ">
-            <div className="badge   bg-[#482F96] dark:text-white">REACT</div>
+            <div className="badge bg-[#482F96] dark:text-white">REACT</div>
             <div className="badge bg-[#482F96] dark:text-white">TAILWIND</div>
             <div className="badge bg-[#482F96] dark:text-white">API</div>
           </div>
@@ -61,7 +61,7 @@ function Projects() {
               rel="noopener noreferrer"
             >
               <button className="btn btn-nuetral normal-case gap-3 dark:bg-[#3b82f680] dark:text-white tracking-widest">
-                <i className="bx bxl-github md:bx-lg bx-md bx-tada-hover dark:text-white"></i>
+                <BsGithub size={34} className=" dark:text-white" />
                 <span>Github</span>
               </button>
             </a>
