@@ -25,6 +25,7 @@ function Hero() {
               className="flex flex-shrink lg:gap-8 gap-2  items-center mt-4 "
             >
               <a
+                aria-label="LinkedIn Profile"
                 className="cursor-pointer"
                 href="https://www.linkedin.com/in/celinevalencia/"
                 target="_blank"
@@ -33,6 +34,7 @@ function Hero() {
                 <i className="bx bxl-linkedin-square md:bx-lg bx-md  bx-tada-hover dark:text-white"></i>
               </a>
               <a
+                aria-label="Github Profile"
                 className="cursor-pointer"
                 href="https://github.com/Paowiee16"
                 target="_blank"
