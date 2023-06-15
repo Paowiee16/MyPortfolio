@@ -21,8 +21,8 @@ function Projects() {
             alt="FauxCoin Exhange"
             className=""
             loading="lazy"
-            width=""
-            height=""
+            width={300}
+            height={300}
           />
         </figure>
         <div data-aos="fade-right" className="card-body lg:w-4/5 p-3 ">

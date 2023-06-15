@@ -17,6 +17,8 @@ function About() {
               src="celine.webp"
               alt="celine"
               loading="lazy"
+              height={300}
+              width={300}
             />
           </div>
         </div>
