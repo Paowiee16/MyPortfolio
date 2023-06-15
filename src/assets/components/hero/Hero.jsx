@@ -23,7 +23,7 @@ function Hero() {
             </div>
             <div
               data-aos="fade-up"
-              className="flex flex-shrink lg:gap-8 gap-2  items-center mt-4 "
+              className="flex flex-shrink lg:gap-8 gap-4  items-center mt-4 "
             >
               <a
                 aria-label="LinkedIn Profile"
@@ -34,7 +34,7 @@ function Hero() {
               >
                 <BsLinkedin
                   size={34}
-                  className=" w-4 lg:w-8 h-auto dark:text-white"
+                  className=" w-12  h-auto dark:text-white"
                 />
               </a>
               <a
@@ -46,15 +46,15 @@ function Hero() {
               >
                 <BsGithub
                   size={34}
-                  className="  w-4 lg:w-8 h-auto dark:text-white"
+                  className="  w-12   h-auto dark:text-white"
                 />
               </a>
               <a
-                className="btn normal-case gap-2 btn-sm lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
+                className="btn normal-case gap-2 lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
                 href="Celine_Valencia_Resume.pdf"
                 download="Valencia, Celine - Resume"
               >
-                Resume <DocumentDownload className="w-4 lg:w-5 " />
+                Resume <DocumentDownload className="w-12  lg:w-5 " />
               </a>
             </div>
           </div>
