@@ -8,7 +8,7 @@ function Projects() {
       className="  snap-center project lg:w-5/6 lg:h-screen md:w-4/5 w-3/4  m-auto flex flex-wrap text-center justify-center content-center    "
       id="Webdesign"
     >
-      <div>
+      <div data-aos="fade-up">
         <p className=" font-bold lg:text-5xl  text-2xl  my-5">Projects</p>
       </div>
       <div
