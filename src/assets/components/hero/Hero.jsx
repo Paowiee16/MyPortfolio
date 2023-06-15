@@ -12,9 +12,7 @@ function Hero() {
             <h1 className="lg:text-7xl text-5xl font-bold  ">
               Celine Valencia
             </h1>
-            <h3 className="my-2 text-lg">
-              Front End Developer | Graphic Designer
-            </h3>
+            <h3 className="my-2 text-lg">Front End Developer</h3>
             <div data-aos="slide-up">
               <p className="my-12 text-justify gap-4 flex items-center flex-wrap text-sm  md:text-lg ">
                 <HeartCircle size="32" color="#ff8a65" variant="Bold" /> I like
@@ -44,7 +42,7 @@ function Hero() {
               </a>
               <a
                 className="btn normal-case gap-2 btn-sm lg:btn-md lg:gap-4 lg:text-lg dark:bg-[#3b82f680] dark:text-white tracking-widest"
-                href="ValenciaCeline-Resume.pdf"
+                href="Celine_Valencia_Resume.pdf"
                 download="Valencia, Celine - Resume"
               >
                 Resume <DocumentDownload className="w-4 lg:w-5 dark:text-red" />
