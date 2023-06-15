@@ -12,7 +12,11 @@ function About() {
       <div className="flex flex-col w-full lg:flex-row items-center">
         <div className="grid  w-max  content-center  text-center ">
           <div data-aos="fade-up" className=" m-auto ">
-            <img className="rounded-full lg:w-full w-56   " src="celine.webp" />
+            <img
+              className="rounded-full lg:w-full w-56   "
+              src="celine.webp"
+              alt="celine"
+            />
           </div>
         </div>
         {/* About Description */}
@@ -45,54 +49,64 @@ function About() {
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
             {/* css */}
 
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
 
             {/* tailwind */}
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
             {/* React */}
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
             {/* php */}
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
             {/* Mysql */}
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
 
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
             {/* Photoshop */}
 
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
 
             {/* Figma */}
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
               className="w-12 lg:w-16"
+              alt=""
             />
           </div>
         </div>
