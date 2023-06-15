@@ -12,7 +12,7 @@ function About() {
       <div className="flex flex-col w-full lg:flex-row items-center">
         <div className="grid  w-max  content-center  text-center ">
           <div data-aos="fade-up" className=" m-auto ">
-            <img className="rounded-full lg:w-full w-56   " src="celine.png" />
+            <img className="rounded-full lg:w-full w-56   " src="celine.webp" />
           </div>
         </div>
         {/* About Description */}
@@ -58,12 +58,6 @@ function About() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
               className="w-12 lg:w-16"
             />
-            {/* Sass
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-              className="w-12 lg:w-16"
-            /> */}
-            {/* Boostrap */}
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
               className="w-12 lg:w-16"
@@ -83,12 +77,7 @@ function About() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
               className="w-12 lg:w-16"
             />
-            {/* firebase 
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
-              className="w-12 lg:w-16"
-            />*/}
-            {/* illustrator */}
+
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
               className="w-12 lg:w-16"
