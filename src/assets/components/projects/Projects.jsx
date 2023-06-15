@@ -16,7 +16,12 @@ function Projects() {
         className="card lg:card-side lg:w-fit m-auto p-5     dark:text-white "
       >
         <figure data-aos="fade-up">
-          <img src="webimage.webp " alt="FauxCoin Exhange" className="" />
+          <img
+            src="webimage.webp "
+            alt="FauxCoin Exhange"
+            className=""
+            loading="lazy"
+          />
         </figure>
         <div data-aos="fade-right" className="card-body lg:w-4/5 p-3 ">
           <h2 className="card-title text-sm lg:text-2xl tracking-widest ">

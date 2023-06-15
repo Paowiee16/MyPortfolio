@@ -16,6 +16,7 @@ function About() {
               className="rounded-full lg:w-full w-56   "
               src="celine.webp"
               alt="celine"
+              loading="lazy"
             />
           </div>
         </div>

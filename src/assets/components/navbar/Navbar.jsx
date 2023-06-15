@@ -82,7 +82,7 @@ function Navbar() {
         <div className="navbar-center hidden lg:flex  text-xl ">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className=" font-semibold " href="#H">
+              <a className=" font-semibold " href="#">
                 Home
               </a>
             </li>
