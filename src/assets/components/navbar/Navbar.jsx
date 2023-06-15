@@ -45,10 +45,10 @@ function Navbar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 dark:bg-[#18191A] dark:text-white "
             >
               <li>
-                <a className=" font-semibold md:text-lg" href="#Home">
+                <a className=" font-semibold md:text-lg" href="#">
                   Home
                 </a>
               </li>
@@ -72,14 +72,17 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <a className="normal-case md:text-2xl font-extrabold cursor-defaultx]">
+          <a
+            className="normal-case md:text-2xl font-extrabold cursor-defaultx]"
+            href="#"
+          >
             Celine
           </a>
         </div>
         <div className="navbar-center hidden lg:flex  text-xl ">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className=" font-semibold " href="#Home">
+              <a className=" font-semibold " href="#H">
                 Home
               </a>
             </li>
