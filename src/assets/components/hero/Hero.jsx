@@ -49,10 +49,6 @@ function Hero() {
               </a>
             </div>
           </div>
-          {/* <img
-            className="rounded-full lg:w-1/3 w-56  border-2 "
-            src="celine.png"
-          /> */}
         </div>
       </div>
     </div>
