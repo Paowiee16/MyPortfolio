@@ -14,7 +14,7 @@ function About() {
           <div data-aos="fade-up" className=" m-auto ">
             <img
               className="rounded-full lg:w-full w-56   "
-              src="celine.webp"
+              src="celine.png"
               alt="celine"
               loading="lazy"
               height={300}
